@@ -1,0 +1,103 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #eeeeff;
+
+}
+
+li {
+
+    display: inline;
+    list-style-type: none;
+    float: left;
+
+}
+
+nav {
+    border: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 100%;
+}
+
+
+a:hover {
+
+    color: #3333dd;
+    background-color: #ffffff;
+
+}
+
+a {
+    display: inline;
+    border-style: solid;
+    border: 1px solid #111111;
+    border-spacing: 0px;
+    text-decoration: none;
+    color: #000022;
+}
+
+
+h1 {
+
+    color: orange;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0em 0.0em 0.1em #202;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+
+}
+
+
+article {
+
+    position: relative;
+    width: auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    display: block;
+    float: left;
+    box-shadow: 0em 2em 2em #113;
+    
+}
+
+aside {
+    width: 20%;
+    float: right;
+    height: auto;
+    padding-left: 0.1em;
+    position: relative;
+    background: fixed #eeeeff;
+    border-top: 0%;
+    border: red solid;
+    
+}
+
+form input {
+
+    float: right;
+    margin-right: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+#formButton {
+
+    position: static;
+
+}
+
+label {
+
+    float: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
