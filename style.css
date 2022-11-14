@@ -1,4 +1,13 @@
-* {
+@font-face{
+
+    font-family: "unown";
+    src: url(fonts/unown.ttf);
+
+}
+
+
+
+*{
 
     margin: 0;
     padding: 0;
@@ -62,7 +71,7 @@ a:hover {
 a {
     display: inline;
     border-style: solid;
-    border: 1px solid #111111;
+    border: 0.1em solid #111111;
     border-spacing: 0px;
     text-decoration: none;
     color: #000022;
@@ -74,7 +83,7 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     text-shadow: 0em 0.0em 0.1em #202;
     text-align: center;
-    font-size: 6em;
+    font-size: 5.5em;
     position: relative;
 
 }
