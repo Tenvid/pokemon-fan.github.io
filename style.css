@@ -1,4 +1,13 @@
-* {
+@font-face{
+
+    font-family: "unown";
+    src: url(fonts/unown.ttf);
+
+}
+
+
+
+*{
 
     margin: 0;
     padding: 0;
