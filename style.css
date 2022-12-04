@@ -244,8 +244,11 @@ label{
 
 #portadaRojo{
 
-    height: 10%;
-    width: calc(10% * 1.2);
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    width: 30%;
+    height: auto;
 
 }
 
@@ -258,8 +261,11 @@ label{
 
 #ash{
 
-    height: 30%;
-
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 1%;
 }
 
 #pkAdventures{
