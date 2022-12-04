@@ -232,7 +232,8 @@ footer {
     width: 80%;
     left: 10%;
     right: 10%;
-    border: red 20px solid;
+    border: #1155aa 5px solid;
+    position: relative;
 }
 
 label{
@@ -240,10 +241,6 @@ label{
     margin: 0.2em;
 }
 
-body{
-
-    width: 100%;
-}
 
 #portadaRojo{
 
@@ -262,5 +259,20 @@ body{
 #ash{
 
     height: 30%;
+
+}
+
+#pkAdventures{
+
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 30%;
+
+}
+iframe{
+
+    margin: 0 auto;
+    display: block;
 
 }
