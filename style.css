@@ -99,7 +99,7 @@ img {
 
 #piePocket {
 
-    display:inline-block;
+    display: inline-block;
     left: 0em;
     right: auto;
 
@@ -136,6 +136,8 @@ h2 {
 
     text-align: center;
     font-family: 'Anton', sans-serif;
+    color: white;
+    -webkit-text-stroke: black thin;
 }
 
 #pokemon {
@@ -188,15 +190,6 @@ aside {
 
 }
 
-form input {
-
-    float: right;
-    margin-right: 2em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-
-}
-
 #formButton {
 
     position: static;
@@ -210,28 +203,64 @@ label {
     margin-bottom: 0.5em;
 }
 
+input {
+
+    margin: 0.2em;
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 10px;
+    padding: 0.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 main {
 
-    height: calc(150vh - 23em);
-    /*22em header, 1em nav*/
-
+    height: calc(150vh - 25em);
 
 }
 
 footer {
 
-    background-color: red;
+    background-color: rgb(40, 26, 104);
     position: relative;
     text-align: center;
-
-
-
+    color: white;
 }
 
-#pokeGenerator{
+#pokeGenerator {
 
     width: 80%;
     left: 10%;
     right: 10%;
+    border: red 20px solid;
+}
+
+label{
+
+    margin: 0.2em;
+}
+
+body{
+
+    width: 100%;
+}
+
+#portadaRojo{
+
+    height: 10%;
+    width: calc(10% * 1.2);
+
+}
+
+#portadaEscarlata{
+
+    margin-left: 10%;
+    height: 10%;
+    width: calc(10% * 1.2);
+}
+
+#ash{
+
+    height: 30%;
 
 }
