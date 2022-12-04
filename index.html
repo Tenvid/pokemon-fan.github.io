@@ -9,7 +9,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="">
 
     <!--Font relationship -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +24,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <!--- --->
 </head>
 
 <body>
@@ -33,7 +31,7 @@
     <header>
 
         <h1> <span id="h1"> Todo lo que debes saber sobre </span><br>
-            <span id="pokemon"> Pokémon </span>
+            <span class="pokemon"> Pokémon </span>
         </h1>
 
     </header>
@@ -49,7 +47,7 @@
     </nav>
 
     <main>
-        <section>
+        <div id="section">
 
             <p>Pokémon es, la saga de videojuegos que más dinero genera actualmente, pero no siempre fue así. En sus
                 inicios sus ventas fueron más bien, mediocres. No fue hasta la aparición de un "héroe" inesperado que la
@@ -59,19 +57,19 @@
             <p><strong>Vídeo introductorio sobre la historia de Pokémon, creado por <a
                         href="https://www.youtube.com/@MurkiPlays"> <u> Murki</u></a></strong></p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ymFxepbBSvQ"
-                title="YouTube video player" frameborder="0"
+                title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        </section>
+        </div>
         <br>
 
         <br>
         <aside id="form">
 
             <h2>Genera tu propio equipo pokémon aleatorio</h2>
-            <embed id="pokeGenerator" src="https://randompokemon.com"></embed>
+            <embed id="pokeGenerator" src="https://randompokemon.com">
             <h2> <span id="unite"> Únete a nuestro club de fans <br>
-                </span> <span id="pokemon">Pokémon</span></h2>
+                </span> <span class="pokemon">Pokémon</span></h2>
 
             <form>
                 <label>Nombre: </label><input type="text" maxlength="20">
@@ -86,16 +84,14 @@
                 <label>Contraseña: </label> <input type="password">
                 <br>
                 <br>
-                <input type="submit" value="Registrarse" id="formButton"> <input type="reset" value="Borrar"
-                    id="formButton">
+                <input type="submit" value="Registrarse" class="formButton"> <input type="reset" value="Borrar"
+                    class="formButton">
             </form>
         </aside>
     </main>
     <br>
     <br>
-    <footer>
 
-    </footer>
 
 
 </body>

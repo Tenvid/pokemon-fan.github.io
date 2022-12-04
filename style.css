@@ -140,7 +140,7 @@ h2 {
     -webkit-text-stroke: black thin;
 }
 
-#pokemon {
+.pokemon {
 
 
     font-family: pokemon;
@@ -161,7 +161,7 @@ h2 {
 
 }
 
-section {
+#section {
 
     position: relative;
     width: 75%;
@@ -185,12 +185,12 @@ aside {
     background-image: linear-gradient(to bottom,
             rgb(200, 100, 0),
             rgb(255, 255, 255));
-    border-top: 0%;
+    border-top: 0;
     border: rgb(0, 0, 0) solid;
 
 }
 
-#formButton {
+.formButton {
 
     position: static;
 
@@ -280,5 +280,6 @@ iframe{
 
     margin: 0 auto;
     display: block;
-
+    border: 0;
+    padding: 5%;
 }

@@ -9,7 +9,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="">
 
     <!--Font relationship -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +24,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <!--- --->
 </head>
 
 <body>
@@ -33,7 +31,7 @@
     <header>
 
         <h1> <span id="h1"> Puntúa nuestra web de </span><br>
-            <span id="pokemon"> Pokémon </span>
+            <span class="pokemon"> Pokémon </span>
         </h1>
 
     </header>
@@ -48,61 +46,58 @@
 
     </nav>
 
-    
 
-    <main><section>
 
-        <form action="#">
+    <main>
+        <div id="section">
 
-            <label>Nombre: <input type="text" maxlength="20"></label>
-            <br>
-            <br>
-            <label>Apellidos: <input type="text" maxlength="30"></label>
-            <br>
-            <br>
-            <label>Correo electrónico: <input type="email" maxlength="30"></label>
-            <br>
-            <br>
-            <label id="check"><input type="checkbox" checked> Quiero recibir novedades de la web</label>
-            <br>
-            <br>
-            <label>¿Qué nota nos das? <select>
+            <form action="#">
 
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5" selected>5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
+                <label>Nombre: <input type="text" maxlength="20"></label>
+                <br>
+                <br>
+                <label>Apellidos: <input type="text" maxlength="30"></label>
+                <br>
+                <br>
+                <label>Correo electrónico: <input type="email" maxlength="30"></label>
+                <br>
+                <br>
+                <label id="check"><input type="checkbox" checked> Quiero recibir novedades de la web</label>
+                <br>
+                <br>
+                <label>¿Qué nota nos das? <select>
 
-                </select></label>
-            <br><br>
-            <label>¿Acepta usted los términos y condiciones?</label>
-            <label>Sí <input type="radio" name="accept"></label>
-            <label>No <input type="radio" name="accept" checked></label>
-            <br><br>
-            <div><label>Sugerencias: <br> <textarea cols="30" rows="5"></textarea></label></div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <input class="formButton" type="submit">
-            <input class="formButton" type="reset">
-        </form>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5" selected>5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
 
-    </section></main>
+                    </select></label>
+                <br><br>
+                <label>¿Acepta usted los términos y condiciones?</label>
+                <label>Sí <input type="radio" name="accept"></label>
+                <label>No <input type="radio" name="accept" checked></label>
+                <br><br>
+                <div><label>Sugerencias: <br> <textarea cols="30" rows="5"></textarea></label></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <input class="formButton" type="submit">
+                <input class="formButton" type="reset">
+            </form>
 
-    <footer>
+        </div>
+    </main>
 
-        <p>Copyright owner: DGB ©</p>
-
-    </footer>
 </body>
 
 </html>
