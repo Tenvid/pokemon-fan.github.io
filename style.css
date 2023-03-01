@@ -318,7 +318,7 @@ iframe {
     }
 }
 
-@media(max-width: 970px)  {
+@media(max-width: 970px) {
     h1 {
         font-size: 3.5em;
     }
