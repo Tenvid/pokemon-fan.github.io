@@ -10,7 +10,7 @@
     src: url(fonts/Ketchum.otf);
 }
 
-.active{
+.active {
 
     background-color: rgba(100, 20, 20, 0.2);
 
@@ -53,13 +53,16 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1.4em;
+    height: 2.5em;
     background-image: none;
     background-color: #fec;
     min-width: max-content;
     text-align: center;
 }
 
+nav *{
+    font-size: 1.2em;
+}
 
 a:hover {
 
@@ -162,7 +165,7 @@ h2 {
 
 }
 
-main{
+main {
     position: relative;
     width: 100%;
     height: 100%;
@@ -174,7 +177,7 @@ main{
     border: solid rgba(100, 20, 20, 0.2) 0.5em;
 }
 
-#mainIndex{
+#mainIndex {
 
     width: 75%;
 
@@ -238,33 +241,32 @@ footer {
     position: relative;
 }
 
-label{
+label {
 
     margin: 0.2em;
 }
 
 
-#portadaRojo{
-    width: 30%;  
+#portadaRojo {
+    width: 13em;
+    height: auto;
+    float: left;
 }
 
-#portadaEscarlata{
-    width: 30%;
+#portadaEscarlata {
+    width: 10em;
+    height: auto;
+    float: right;
 }
 
-#portadasJuegos{    
+#portadadasJuegos {
+    margin-top: 5%;
     width: 100%;
     display: inline-block;
 }
 
-#portadaEscarlata{
 
-    margin-left: 10%;
-    height: 10%;
-    width: calc(10% * 1.2);
-}
-
-#ash{
+#ash {
 
     width: 30%;
     height: auto;
@@ -273,21 +275,23 @@ label{
     padding: 1%;
 }
 
-#pkAdventures{
+#pkAdventures {
 
     display: flex;
     justify-content: center;
 }
-#pokespe{
+
+#pokespe {
     height: 80vh;
 }
-#pkAdventuresIMG{
+
+#pkAdventuresIMG {
 
     width: 30%;
     height: auto;
 }
 
-iframe{
+iframe {
 
     margin: 0 auto;
     display: block;
@@ -297,56 +301,68 @@ iframe{
     height: 60vh;
 }
 
-#mangaImages{
+#mangaImages {
 
     width: 100%;
 
 }
+@media(max-width: 383px){   
+    #portadasJuegos *{
+        float: left;
+    }
+}
 
-@media screen and (max-width: 852px) and (min-width: 470px)
- {
-    h1{
+@media(max-width: 852px) and (min-width: 470px) {
+    h1 {
         font-size: 4em;
     }
 }
 
-@media screen and (max-width: 970px) and (min-width: 350px)
- {
-    h1{
+@media(max-width: 970px)  {
+    h1 {
         font-size: 3.5em;
     }
-    header{
+
+    header {
         height: auto;
     }
-    #mainIndex{
+
+    #mainIndex {
         width: 100%;
     }
-    #form{
+
+    #form {
         width: 100%;
         float: right;
     }
-    nav {
 
+    nav {
         display: block;
         text-align: center;
         display: flex;
         justify-content: center;
+        height: 1.5em;
+    }
+    nav *{
+        font-size: 1em;
     }
 
 }
-@media screen and (max-width: 400px)
- {
-    h1{
+
+@media(max-width: 400px) {
+    h1 {
         font-size: 2.5em;
     }
-    iframe{
+
+    iframe {
         height: 30vh;
     }
 }
 
-@media (min-width: 1500px)
- {
-    p{
+@media (min-width: 1500px) {
+    p {
         font-size: 1.5em;
     }
 }
+
+
