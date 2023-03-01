@@ -10,7 +10,7 @@
     src: url(fonts/Ketchum.otf);
 }
 
-html, body{
+.fixHeight{
     height: 100%;
 }
 
