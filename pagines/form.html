@@ -50,17 +50,17 @@
 
 
     <main>
-        <div id="section">
+        <section>
 
-            <form action="#">
+            <form action="form.php" method="post">
 
-                <label>Nombre: <input type="text" maxlength="20"></label>
+                <label>Nombre: <input name="name" type="text" maxlength="20"></label>
                 <br>
                 <br>
-                <label>Apellidos: <input type="text" maxlength="30"></label>
+                <label>Apellidos: <input name="surnames" type="text" maxlength="30"></label>
                 <br>
                 <br>
-                <label>Correo electrónico: <input type="email" maxlength="30"></label>
+                <label>Correo electrónico: <input name="mail" type="email" maxlength="30"></label>
                 <br>
                 <br>
                 <label id="check"><input type="checkbox" checked> Quiero recibir novedades de la web</label>
@@ -96,7 +96,7 @@
                 <input class="formButton" type="reset">
             </form>
 
-        </div>
+        </section>
     </main>
     <footer> Copyright &copy; 2023</footer>
 </body>

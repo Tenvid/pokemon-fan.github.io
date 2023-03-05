@@ -37,13 +37,14 @@ header {
 }
 
 body {
-
+    min-height: fit-content;
     font-family: 'Oswald', sans-serif;
     background-image: linear-gradient(to bottom,
             #111,
             white);
 
     letter-spacing: -0.07em;
+    /* width: 100%; */
 }
 
 
@@ -80,20 +81,17 @@ a {
     text-decoration: none;
 
 }
-
-img {
-
-    width: 10em;
-    height: 15em;
-    display: inline;
-
-}
-
-#electricTaleIMG {
-
+#mangaPocketMonsters{
+    width: 20vw;
+    height: auto;
     position: relative;
 }
 
+#electricTaleIMG {
+    width: 20vw;
+    height: auto;
+    position: relative;
+}
 
 #pieElectric {
 
@@ -170,6 +168,7 @@ h2 {
 }
 
 main {
+    min-height: fit-content;
     position: relative;
     width: 100%;
     height: 100%;
@@ -191,7 +190,7 @@ aside {
     margin-top: 1em;
     width: 20%;
     float: right;
-    height: auto;
+    height: 100%;
     /* padding-left: 0.1em; */
     position: relative;
     background-image: linear-gradient(to bottom,
@@ -253,13 +252,13 @@ label {
 
 
 #portadaRojo {
-    width: 13em;
+    width: 20vw;
     height: auto;
     float: left;
 }
 
 #portadaEscarlata {
-    width: 10em;
+    width: 17vw;
     height: auto;
     float: right;
 }
@@ -273,10 +272,11 @@ label {
 
 #ash {
 
-    width: 30%;
+    width: 20vw;
     height: auto;
     margin: 0 auto;
     display: block;
+    position: relative;
     padding: 1%;
 }
 
@@ -313,7 +313,13 @@ iframe {
 }
 @media(max-width: 383px){   
     #portadasJuegos *{
-        float: left;
+        width: 100%;
+    }
+    #portadaRojo{
+        width: 100%;
+    }
+    #portadaEscarlata{
+        width: 100%;
     }
 }
 
@@ -363,11 +369,28 @@ iframe {
         height: 30vh;
     }
 }
-
-@media (min-width: 1500px) {
+@media (min-width: 1500px) and (max-width: 3000px) {
     p {
         font-size: 1.5em;
     }
 }
 
 
+@media (min-width: 3000px)
+ {
+    p{
+        font-size: 3em;
+    }
+    label{
+        font-size: 2em;
+    }
+    form{
+        float: left;
+    }
+    form *{
+        clear: both;
+    }
+    input{
+        size: 0cap;
+    };
+}
