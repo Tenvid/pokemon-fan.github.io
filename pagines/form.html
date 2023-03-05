@@ -54,44 +54,39 @@
 
             <form action="form.php" method="post">
 
-                <label>Nombre: <input name="name" type="text" maxlength="20"></label>
+                <label>Nombre: </label> <input name="name" type="text" maxlength="20">
                 <br>
                 <br>
-                <label>Apellidos: <input name="surnames" type="text" maxlength="30"></label>
+                <label>Apellidos: </label><input name="surnames" type="text" maxlength="30">
                 <br>
                 <br>
-                <label>Correo electrónico: <input name="mail" type="email" maxlength="30"></label>
+                <label>Correo electrónico: </label><input name="mail" type="email" maxlength="30">
                 <br>
                 <br>
-                <label id="check"><input type="checkbox" checked> Quiero recibir novedades de la web</label>
+                <label id="check">Quiero recibir novedades de la web </label><input type="checkbox" checked>
                 <br>
                 <br>
-                <label>¿Qué nota nos das? <select>
+                <label>¿Qué nota nos das?</label>
+                <select>
 
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5" selected>5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5" selected>5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
 
-                    </select></label>
+                </select>
                 <br><br>
                 <label>¿Acepta usted los términos y condiciones?</label>
                 <label>Sí <input type="radio" name="accept"></label>
                 <label>No <input type="radio" name="accept" checked></label>
                 <br><br>
-                <div><label>Sugerencias: <br> <textarea cols="30" rows="5"></textarea></label></div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                <label>Sugerencias: </label><br> <textarea cols="30" rows="5"></textarea>
                 <input class="formButton" type="submit">
                 <input class="formButton" type="reset">
             </form>

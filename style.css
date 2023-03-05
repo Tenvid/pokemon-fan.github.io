@@ -225,6 +225,17 @@ input {
 
 }
 
+#upp{
+
+    color: gray;
+    margin-top: 5%;
+}
+
+#trailerVD{
+    margin: 0;
+    height: 30vw;
+    width: 50vw;
+}
 
 footer {
 
@@ -345,6 +356,7 @@ iframe {
     #form {
         width: 100%;
         float: right;
+        min-height: fit-content;
     }
 
     nav {
@@ -376,14 +388,12 @@ iframe {
 }
 
 
-@media (min-width: 3000px)
+@media (min-width: 1100px)
  {
     p{
         font-size: 3em;
     }
-    label{
-        font-size: 2em;
-    }
+
     form{
         float: left;
     }
@@ -391,6 +401,31 @@ iframe {
         clear: both;
     }
     input{
-        size: 0cap;
-    };
+        width: 40vw;
+        height: 3vh;
+        max-width: 40%;
+        float: left;
+    }
+    select{
+        width: 40vw;
+        height: 3vh;
+        font-size: 3em;
+        margin-top: 2%;
+    }
+    .formButton{
+        width: 100%;
+        max-width: max-content;
+        font-size: 2em;
+        padding-bottom: 3%;
+    }
+    textarea{
+        float: right;
+        width: 20em;
+        height: 5em;
+        font-size: 1em;
+    }
+    label{
+        font-size: 3em;
+        float: left;
+    }
 }
